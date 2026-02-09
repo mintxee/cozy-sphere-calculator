@@ -73,7 +73,7 @@ if radius > 0:
     x_sphere, y_sphere, z_sphere = create_sphere_data(radius)
 
     fig = go.Figure(
-        data=[go.Surface(x=x_sphere, y=y_sphere, z=z_sphere, colorscale="blues")]
+        data=[go.Surface(x=x_sphere, y=y_sphere, z=z_sphere, colorscale="Pinkyl")]
     )
 
     fig.update_layout(
